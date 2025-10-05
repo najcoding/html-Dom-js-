@@ -1,4 +1,6 @@
 function myFunction() {
-var a = 4;
-document.getElementById("Demo").innerHTML = a*a;
+document.getElementById("result").innerHTML =
+document.getElementById("Demo").firstChild.nodeValue;
+document.getElementById("result 1").innerHTML = 
+document.getElementById("Demo").childNodes[0].nodeValue
 }
